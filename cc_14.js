@@ -29,3 +29,10 @@ function addTicket(customerName, issueDescription, priorityLevel) {
         ticketContainer.removeChild(ticket); // removing ticket from container
         event.stopPropagation();
     })
+
+    // Section for appending elements to ticket
+    ticket.appendChild(nameHeading);
+    ticket.appendChild(issueText);
+    ticket.appendChild(priorityState);
+    ticket.appendChild(resolveButton);
+    ticketContainer.appendChild(ticket); // appending ticket to container
