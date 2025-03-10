@@ -27,3 +27,5 @@ function addTicket(customerName, issueDescription, priorityLevel) {
     // Task 4 - Support Ticket Resolution with Event Bubbling
     resolveButton.addEventListener('click', function(event) {
         ticketContainer.removeChild(ticket); // removing ticket from container
+        event.stopPropagation();
+    })
