@@ -23,3 +23,6 @@ function addTicket(customerName, issueDescription, priorityLevel) {
     const resolveButton = document.createElement('button');
     resolveButton.textContent = 'Resolve';
     resolveButton.setAttribute('class', 'resolve-button');
+
+    // Task 4 - Support Ticket Resolution with Event Bubbling
+    resolveButton.addEventListener('click', function(event) {
