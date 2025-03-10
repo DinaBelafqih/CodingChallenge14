@@ -80,3 +80,4 @@ function addTicket(customerName, issueDescription, priorityLevel) {
             ticket.appendChild(resolveButton);
         });
     });
+}
