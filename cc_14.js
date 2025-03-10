@@ -95,3 +95,9 @@ function highlightHighPriorityTickets() {
 }
 
 highlightHighPriorityTickets()
+
+// Attaching an Event listener to ticketContainer
+const ticketContainer = document.getElementById('ticketContainer');
+ticketContainer.addEventListener('click', function() {
+    console.log('A ticket was clicked')
+});
