@@ -81,3 +81,11 @@ function addTicket(customerName, issueDescription, priorityLevel) {
         });
     });
 }
+
+// Task 3 -  Highlighted High Priority Tickets
+// Creating a function to highlight tickets
+function highlightHighPriorityTickets() {
+    const highlightHighPriorityTickets = document.querySelectorAll('.high');
+    const highPriorityArray = Array.from(highlightHighPriorityTickets);
+
+    highPriorityArray.forEach(ticket => {
