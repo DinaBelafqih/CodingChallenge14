@@ -89,3 +89,5 @@ function highlightHighPriorityTickets() {
     const highPriorityArray = Array.from(highlightHighPriorityTickets);
 
     highPriorityArray.forEach(ticket => {
+        ticket.style.backgroundColor = 'lightorange'; // Setting a highlight color
+        ticket.style.border = '2px solid purple'; // Added a border
