@@ -101,3 +101,8 @@ const ticketContainer = document.getElementById('ticketContainer');
 ticketContainer.addEventListener('click', function() {
     console.log('A ticket was clicked')
 });
+
+// examples;
+
+addTicket('Becca Shaw', 'Software bug report', 'High');
+addTicket('Elizabeth Jackson', 'Page not displaying', 'Low');
